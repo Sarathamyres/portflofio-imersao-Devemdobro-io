@@ -1,0 +1,47 @@
+/* Reset CSS Abrangente */
+
+/* Box-sizing reset */
+html {
+  box-sizing: border-box;
+}
+/* Reset de margens e preenchimentos */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Elementos estruturais */
+body {
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+}
+ul,
+ol {
+  list-style: none;
+}
+/* Reset de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* Elementos de formulário */
+button,
+input {
+  font-family: inherit;
+  font-size: inherit;
+}
+/* Imagens */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

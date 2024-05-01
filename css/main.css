@@ -1,0 +1,96 @@
+html {
+  background: linear-gradient(
+    114deg,
+    rgba(2, 41, 85, 1) 0%,
+    rgba(45, 68, 124, 0.8515055680475315) 28%,
+    rgba(120, 151, 222, 1) 80%
+  );
+
+  color: #fff;
+}
+body {
+  font-family: "ralewa";
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em;
+  padding: 2em 1em;
+}
+.cabecalho .logo {
+  font-family: "ralewa sans-serif";
+  font-size: 20px;
+  border: 2px solid #fff;
+  width: 70px;
+  height: 70px;
+  padding: 2px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: underline;
+  margin: 0 0 0 1em;
+}
+.cabecalho .logo:hover {
+  color: #041232;
+  border: 2px solid #041232;
+  transition: 0.2s;
+}
+.cabecalho .menu {
+  font-size: 20px;
+}
+.cabecalho .menu:hover {
+  color: #13295e;
+  border: 2px solid #13295e;
+  width: 10em;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 24px;
+  transition: 0.2s;
+}
+.foto-perfil {
+  background: #13295e;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.home {
+  min-height: calc(1200px - 612px);
+  display: flex;
+  align-items: center;
+  gap: 10em;
+  padding: 2em 0 2em 3em;
+}
+.home .texto {
+  max-width: 50%;
+  padding: 1em;
+}
+.home .texto h2 {
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+.home .texto p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 1em;
+}
+.texto .icons ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+.texto .icons ul li {
+  color: #fff;
+  font-size: 25px;
+  border: 2px solid #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+}
+.texto .icons ul li:hover {
+  color: #13295e;
+  border: 2px solid #13295e;
+  transition: 0.2s;
+}

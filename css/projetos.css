@@ -1,0 +1,82 @@
+.projetos h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 0.5em 0 2em 0;
+}
+.projetos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 20px;
+  margin-bottom: 1em;
+}
+.projeto-item {
+  position: relative;
+  display: none;
+}
+.ativo {
+  display: block;
+}
+.projeto-item img {
+  height: 500px;
+}
+.projeto-item h3 {
+  background: black;
+  font-size: 15px;
+  position: absolute;
+  width: 97%;
+  padding: 0.5em 0 0.5em 0.5em;
+  bottom: 0;
+}
+.projeto-item .descricao {
+  background: black;
+  width: 90%;
+  height: 95%;
+  font-size: 15px;
+  position: absolute;
+  top: 0;
+  padding: 1em;
+  opacity: 0.8;
+  display: none;
+}
+.projeto-item .descricao a {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.projeto-item:hover .descricao {
+  display: block;
+}
+.btn-ver-mais {
+  text-align: center;
+  padding: 2em;
+}
+.btn-ver-mais button {
+  background: none;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  width: 10em;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 24px;
+  transition: 0.2s;
+}
+button:hover {
+  cursor: pointer;
+  background: none;
+  color: #13295e;
+  font-weight: 700;
+  border: 2px solid #13295e;
+  width: 10em;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 24px;
+  transition: 0.2s;
+}
+.remover {
+  display: none;
+}
